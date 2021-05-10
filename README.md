@@ -2,4 +2,4 @@
 
 Na pasta ```src``` temos os arquivos ```.java``` com o código editável.
 
-Na pasta ```bin``` temos os arquivos compilados ```.class```. 
+Na pasta ```bin``` temos os arquivos ```.class``` compilados. 
