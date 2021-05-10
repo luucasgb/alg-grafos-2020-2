@@ -91,16 +91,13 @@ class Graph
 
         System.out.println("\nQuantidade de vertices impares: " + odd);
 
-        // Se a quantidade de vertices impares for maior que 2,
-        // o grafo nao eh euleriano.
+        // Se a quantidade de vertices impares for maior que 2, o grafo nao eh euleriano.
         if(odd > 2) {
             return 0;
         }
 
-        // Se a quantidade de vertices impares for igual a 2,
-        // o grafo possui um caminho euleriano.
-        // Se o grafo nao possuir nenhum vertice impar,
-        // o grafo eh euleriano.
+        // Se a quantidade de vertices impares for igual a 2, o grafo possui um caminho euleriano.
+        // Se o grafo nao possuir nenhum vertice impar, o grafo eh euleriano.
         else
             return (odd == 2) ? 1 : 2;
     }
